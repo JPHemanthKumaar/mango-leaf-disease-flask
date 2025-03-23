@@ -1,7 +1,7 @@
 flask==3.0.0
-werkzeug==3.0.0  # Pin to a specific version compatible with flask==3.0.0
-tensorflow==2.10.0
+werkzeug==3.0.0
+tensorflow==2.12.0  # Upgrade to support newer TFLite ops
 numpy==1.26.4
 pillow==10.0.0
 gunicorn==20.1.0
-waitress==3.0.0  # Optional, for local testing on Windows
+waitress==3.0.0
