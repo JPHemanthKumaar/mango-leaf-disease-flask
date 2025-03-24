@@ -1,7 +1,0 @@
-flask==3.0.0
-werkzeug==3.0.0
-tensorflow==2.16.2  # Latest version compatible with Python 3.10, supports FULLY_CONNECTED v12
-numpy==1.26.4  # Compatible with tensorflow==2.16.2
-pillow==10.4.0  # Updated to resolve pikepdf conflict and compatible with tensorflow
-gunicorn==20.1.0  # For Render deployment
-waitress==3.0.0  # For local testing on Windows
